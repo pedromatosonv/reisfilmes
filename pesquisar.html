@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="PT-BR">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Reis Filmes</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/estilo.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+            integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    </head>
+    <body>
+        <header class = "header w3-bar w3-black">
+            <div class = "row">
+              <div class = "col-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                  <div class = "col-2 col-sm-2 d-none d-sm-block">
+                    <img src = "imgs/LogoMarca2.png" class = "logo">
+                  </div>
+                  <a href="index.html" class="w3-bar-item w3-button mt-5">Home</a>
+                  <a href="#Dest" class="w3-bar-item w3-button mt-5">Em Destaque</a>
+                  <a href="#Avaliacao" class="w3-bar-item w3-button mt-5">Avaliações</a>
+                  <a href="#Entrevista" class="w3-bar-item w3-button mt-5">Entrevistas e Making Of</a>
+                  <a href="#Novidades" class="w3-bar-item w3-button mt-5">Novidades</a>
+
+                  <div class= "search col-10 col-sm-12 col-md-12 col-lg-4 mt-5 ms-5">
+                    <form class="d-flex" id="form">
+                      <input class="form-control me-2" type="search" id="pesquisar" aria-labelledby="Pesquisar filme"
+                          aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit" onclick="pesquisarFilmes()" class="btn btn-primary">Pesquisar</button>
+                    </form>
+                  </div>
+                </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              </div>
+
+            </div>
+          </header>
+        <main>
+            <div id="detalhes"></div>
+
+        </main>
+        <footer class="w3-center w3-black w3-padding-16">
+            <p>Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web ICEI Puc Minas - Raphael Rezende Reis</a></p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous">
+        </script>
+        <script src="js/pesquisar.js"></script>
+    </body>
+</html>
